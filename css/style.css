@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1F2937;
+  background-color: #283618;
   color: white;
   padding: 16px 150px;
 }
@@ -36,9 +36,10 @@ ul {
 
 .first {
   display: flex;
-  background-color: #1F2937;
+  background-color: #283618;
   padding: 48px 150px;
   justify-content: center;
+  gap: 16px;
 }
 
 .text-container {
@@ -51,6 +52,8 @@ ul {
 
 .first img {
   flex: 1 1 50%;
+  width: 500px;
+  border-radius: 16px;
 }
 
 h2 {
@@ -60,9 +63,10 @@ h2 {
 }
 
 button {
-  background-color: #3882F6;
-  padding: 4px 16px;
+  background-color: #dda15e;
+  padding: 6px 24px;
   color: white;
+  border: none;
   border-radius: 6px;
 }
 
@@ -78,8 +82,9 @@ h3 {
 .second {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 32px 200px;
+  justify-content: space-between;
+  padding: 64px 200px;
+  gap: 16px;
 }
 
 .images {
@@ -92,10 +97,11 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
 .second img {
-  border: 2px solid #3882F6;
+  border: 2px solid #dda15e;
   border-radius: 16px;
   width: 100px;
   height: 100px;
@@ -113,7 +119,7 @@ h3 {
 .quote {
   font-size: 36px;
   font-weight: 100;
-  color: #1F2937;
+  color: #283618;
   margin-bottom: 16px;
 }
 
@@ -129,7 +135,7 @@ aside {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3882F6;
+  background-color: #dda15e;
   color: white;
 }
 
@@ -142,7 +148,7 @@ aside button {
 }
 
 footer {
-  background-color: #1F2937;
+  background-color: #283618;
   display: flex;
   justify-content: center;
   align-items: center;
